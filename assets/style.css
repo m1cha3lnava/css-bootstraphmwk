@@ -1,0 +1,12 @@
+
+mark {
+  background-color: teal;
+  color: whitesmoke;
+}
+
+body {
+  background-image: href="assets\gtpfbg.png";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
