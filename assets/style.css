@@ -5,13 +5,21 @@ mark {
 }
 
 body {
-    /* Visual */
     /* background-image: image(.\assets\gtpfbg.png); */
-    background-color: rgb(13, 0, 128));
+    background-image: url('gtpfbg.png');
+
   }
 
  h1 {
    font-weight: bold;
    color: #6fc7b8;
    text-align: left;
+ }
+ h2 {
+  font-weight: bold;
+  color: #6fc7b8;
+  text-align: left;
+}
+ .container{
+   background-color: white;
  }
