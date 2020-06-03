@@ -4,17 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact page</title>
-
+    <!-- Link to bootstrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <!-- Link to my css -->
+    <link rel="stylesheet" href="assets\style.css" />
   </head>
-  
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand mb-0 h1" href="#"><mark>Michael Nava</mark></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html"
+            >Contact <span class="sr-only">(current)</span></a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <body>
-      Contact page
+    <main>
+      <!-- Container for the page -->
+      <div class="container border mt-5">
+        <div class="row">
+          <div class="col-6">
+            <!--  Heading for the page. -->
+            <h1><strong>Contact</strong></h1>
+            <!-- Form with placeholders for form control -->
+            <form>
+              <!-- Name field -->
+              <div class="form-group">
+                <label for="formName">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formName"
+                  placeholder="Name"
+                />
+              </div>
+              <!-- Email field -->
+              <div class="form-group">
+                <label for="formEmail">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="formEmail"
+                  placeholder="Email"
+                />
+              </div>
+              <!-- Message field -->
+              <div class="form-group">
+                <label for="formMessage">Message</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formMessage"
+                  placeholder="Message"
+                />
+              </div>
+              <button type="button" class="btn btn-info btn-lg">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer>
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
