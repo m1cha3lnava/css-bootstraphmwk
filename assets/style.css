@@ -6,14 +6,12 @@ mark {
 
 body {
     /* Visual */
-    background-color: darkslategray;
+    /* background-image: image(.\assets\gtpfbg.png); */
+    background-color: rgb(13, 0, 128));
   }
 
  h1 {
    font-weight: bold;
+   color: #6fc7b8;
+   text-align: left;
  }
-
-.container {
-  background-color: white;
-  padding: 10px;
-}
