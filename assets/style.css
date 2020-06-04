@@ -20,6 +20,9 @@ body {
   color: #6fc7b8;
   text-align: left;
 }
+img{
+  align-content: flex-start;
+}
  .container{
    background-color: white;
  }
