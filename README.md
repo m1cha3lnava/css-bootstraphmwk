@@ -12,7 +12,9 @@ No installation required. Open  using a web browser.
 Feel free to check out my projects and contact me.
 
 screenshots
- 
+ ![About Me](assets\screenshothome.png)
+ ![Portfolio](assets\screenshot-portfolio.png)
+ ![Contact Me]()assets\screenshot-contactme.png
 
 ## Credits
 
